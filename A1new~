@@ -46,12 +46,7 @@ void check(uint64 should, uint64 is)
 
 uint64 recursive(int i)
 {
-  if(i > 0)
-    {
-      i = i * recursive(i-1);
-      return i;
-    }
-    return 1;
+    return -1;
 }
 
 uint64 iterative(int i)
