@@ -56,6 +56,14 @@ uint64 recursive(int i)
 
 uint64 iterative(int i)
 {
-    return -1;
+    for(int j = i; j > 1; j--)
+    {
+        i = i * (j-1);
+    }
+    if(i == 0)
+    {
+        return 1;
+    }
+    return i;
 }
 
